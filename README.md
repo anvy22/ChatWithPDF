@@ -1,10 +1,10 @@
-# 📄 ChatWithPDF
+#  ChatWithPDF
 
 **ChatWithPDF** is a full-stack AI-powered application that enables users to chat with the contents of any uploaded PDF using **Retrieval-Augmented Generation (RAG)**. It leverages vector search, semantic embeddings, and a large language model (LLM) to generate accurate, context-aware responses from documents.
 
 ---
 
-## 🌐 Tech Stack
+##  Tech Stack
 
 | Layer        | Technology                          |
 |--------------|--------------------------------------|
@@ -17,7 +17,7 @@
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 root/
@@ -34,9 +34,9 @@ root/
 
 ---
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
-### 🔐 Client-side (`client/.env`)
+###  Client-side (`client/.env`)
 ```
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
@@ -56,9 +56,9 @@ DB_CONNECT=mongodb://localhost:27017/chatwithpdf
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 📦 Step-by-step Setup
+###  Step-by-step Setup
 
 ```bash
 # 1. Clone the repository
@@ -84,7 +84,7 @@ pnpm dev:worker
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. **Upload**: User uploads a PDF from the UI.
 2. **Process**: PDF is parsed and split into chunks.
@@ -94,7 +94,7 @@ pnpm dev:worker
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Make sure Docker is installed and running before starting the services.
 - Use `pnpm` instead of `npm` for compatibility with the workspace setup.
@@ -102,6 +102,6 @@ pnpm dev:worker
 
 ---
 
-## 📄 License
+##  License
 
 MIT License © 2025 Anvin George
